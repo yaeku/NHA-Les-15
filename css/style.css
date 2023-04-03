@@ -1,0 +1,131 @@
+body {
+  background-color: aliceblue;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #525b76;
+  width: 100%;
+}
+
+ul {
+  padding: 20px 20px 20px 20px;
+  margin: 0px;
+}
+
+ul a {
+  color: white;
+  text-decoration: none;
+}
+
+li {
+  display: inline-block;
+  color: black;
+  width: 100px;
+  padding: 12px;
+  text-align: center;
+  background-color: #869d96;
+}
+
+li:hover {
+  background-color: #a2c3a4;
+  padding: 10px;
+}
+
+.text {
+  margin-right: auto;
+  margin-left: auto;
+  width: 60%;
+  padding: 5px;
+}
+
+.image {
+  margin-right: auto;
+  margin-left: auto;
+  width: 60%;
+}
+
+.zwarte_kat {
+  width: 500px;
+  padding: 10px 0px 10px 0px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 700px;
+}
+
+td {
+  color: black;
+  font-size: 21px;
+  padding: 5px 3px;
+}
+
+.th {
+  background: #525b76;
+  padding-left: 10px;
+  color: white;
+}
+
+.form {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 60%;
+  font-size: 24px;
+  font-weight: bold;
+  color: #525b76;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  display: block;
+  margin: 15px 0px;
+  width: 450px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border-color: #525b76;
+  box-shadow: 2px 2px 1px #869d96;
+  padding: 5px;
+}
+
+textarea {
+  height: 150px;
+  padding: 7px 6px;
+}
+
+button {
+  display: block;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border-color: #525b76;
+  box-shadow: 2px 2px 1px #869d96;
+  padding: 5px;
+}
+
+button:active {
+  background-color: #525b76;
+  color: white;
+}
+
+footer {
+  background-color: #525b76;
+  width: 100%;
+  height: 100px;
+}
+
+footer p {
+  color: white;
+  width: 100%;
+  padding: 5px;
+}
